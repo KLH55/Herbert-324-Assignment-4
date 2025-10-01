@@ -203,6 +203,7 @@ MonoBehaviour:
   m_Factories:
   - {fileID: 2131233198}
   - {fileID: 1320902755}
+  - {fileID: 405730660}
 --- !u!64 &497399571
 MeshCollider:
   m_ObjectHideFlags: 0

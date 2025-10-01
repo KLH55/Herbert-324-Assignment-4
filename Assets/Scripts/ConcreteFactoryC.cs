@@ -12,7 +12,7 @@ public class ConcreteFactoryC : Factory
     {
         // Create a Prefab instance and get the product component
         GameObject instance = Instantiate(m_ProductPrefab.gameObject, position, Quaternion.identity);
-        ProductA newProduct = instance.GetComponent<ProductA>();
+        ProductC newProduct = instance.GetComponent<ProductC>();
 
         // Each product contains its own logic
         newProduct.Initialize();
